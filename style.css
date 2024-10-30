@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    align-content: center;
+    background-color:  rgb(237, 229, 229);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  rgb(237, 229, 229);
+}
+.card{
+    width: 260px;
+    height: 340px;
+    background-color:white;
+    margin: 20px 20px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card:hover{
+    height: 400px;
+}
+.card:hover img{
+    height: 50%;
+}
+.card:hover button{
+    display: block;
+}
+.card_photo{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card_photo img{
+    width: 100%;
+    height: 60%;
+    transition: 0.5s;
+}
+.card_photo img:hover{
+    transform: scale(1.2);
+}
+.card h2{
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card p{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card button{
+    padding: 10px 18px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    color: white;
+    background-color: rgb(188, 27, 27);
+    display: none;
+    transition: 0.5s;
+}
+.card button:hover{
+    background-color:rgb(154, 22, 22) ;
+    box-shadow: 4px 2px 3px 4px;
+}
+.card button ion-icon{
+    font-size: 18px;
+    margin-right: 5px;
+}
